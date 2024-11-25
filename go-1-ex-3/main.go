@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 	"math/rand"
-	"time"
 	"os"
+	"time"
 )
 
 func main() {
@@ -35,4 +35,5 @@ func main() {
 	fmt.Fprintln(eyesFile, "the dice shows", eyes, "eyes")
 	fmt.Fprintln(diceLogFile, "the dice was rolled at, when")
 	// go run ex3/main.go TODO
+	// Nicolas
 }
